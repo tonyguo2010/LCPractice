@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 public class TwoWings {
 	
 //	int[] nums = {1,2,3,4}; 
+//	[24, 12, 8, 6] 24 = 2*3*4, 12 = 1*3*4, 8=1*2*4, 6=1*2*3
 	public static int[] productExceptSelf(int[] inputs) {
 		int[] output = new int[inputs.length];
 		
